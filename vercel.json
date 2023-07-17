@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/prices/campaign/cron?supplier=onninen",
+      "schedule": "0 4 * * *"
+    },
+    {
+      "path": "/api/prices/campaign/cron/delay?supplier=ahlsell",
+      "schedule": "0 4 * * *"
+    }
+  ]
+}
